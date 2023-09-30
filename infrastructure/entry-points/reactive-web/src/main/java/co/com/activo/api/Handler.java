@@ -1,7 +1,9 @@
 package co.com.activo.api;
 
 import co.com.activo.api.dto.ActivoDto;
-import co.com.activo.model.commons.Activo;
+import co.com.activo.api.dto.ComputadorDto;
+import co.com.activo.model.activos.tecnologicos.computador.Computador;
+import co.com.activo.model.common.Activo;
 import co.com.activo.usecase.activo.ActivoUseCase;
 import lombok.AllArgsConstructor;
 import org.springframework.http.MediaType;
@@ -17,6 +19,7 @@ import java.util.Map;
 @RequestMapping(value = "/api", produces = MediaType.APPLICATION_JSON_VALUE)
 public class Handler {
     private final ActivoUseCase useCase;
+
 
     @PostMapping(value = "/save", consumes = MediaType.APPLICATION_JSON_VALUE, produces = MediaType.APPLICATION_JSON_VALUE)
     public Mono<Activo> saveActivo(@RequestBody ActivoDto data) {

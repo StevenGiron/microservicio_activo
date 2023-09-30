@@ -1,6 +1,6 @@
-package co.com.activo.model.commons.gateways;
+package co.com.activo.model.common.gateways;
 
-import co.com.activo.model.commons.Activo;
+import co.com.activo.model.common.Activo;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 

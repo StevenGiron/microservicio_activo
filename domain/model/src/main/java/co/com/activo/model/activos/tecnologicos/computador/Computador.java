@@ -1,6 +1,6 @@
 package co.com.activo.model.activos.tecnologicos.computador;
 
-import co.com.activo.model.commons.ActivoTecnologico;
+import co.com.activo.model.common.ActivoTecnologico;
 import lombok.*;
 import lombok.experimental.SuperBuilder;
 

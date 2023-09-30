@@ -1,7 +1,7 @@
 package co.com.activo.mongo.activo;
 
-import co.com.activo.model.commons.Activo;
-import co.com.activo.model.commons.gateways.ActivoRepository;
+import co.com.activo.model.common.Activo;
+import co.com.activo.model.common.gateways.ActivoRepository;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Repository;
 import reactor.core.publisher.Flux;

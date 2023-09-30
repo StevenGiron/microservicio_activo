@@ -1,6 +1,6 @@
 package co.com.activo.mongo.activo;
 
-import co.com.activo.model.commons.Activo;
+import co.com.activo.model.common.Activo;
 import co.com.activo.mongo.helper.AdapterOperations;
 import org.reactivecommons.utils.ObjectMapper;
 import org.springframework.stereotype.Repository;

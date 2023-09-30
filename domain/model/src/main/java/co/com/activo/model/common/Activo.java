@@ -1,4 +1,4 @@
-package co.com.activo.model.commons;
+package co.com.activo.model.common;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

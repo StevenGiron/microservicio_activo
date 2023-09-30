@@ -1,7 +1,7 @@
 package co.com.activo.usecase.activo;
 
-import co.com.activo.model.commons.Activo;
-import co.com.activo.model.commons.gateways.ActivoRepository;
+import co.com.activo.model.common.Activo;
+import co.com.activo.model.common.gateways.ActivoRepository;
 import lombok.AllArgsConstructor;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
