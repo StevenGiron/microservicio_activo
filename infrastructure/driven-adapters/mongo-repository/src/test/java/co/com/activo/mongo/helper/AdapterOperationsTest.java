@@ -1,8 +1,7 @@
 //package co.com.activo.mongo.helper;
 //
-//
-//import co.com.activo.mongo.activo.MongoDBRepository;
-//import co.com.activo.mongo.activo.MongoRepositoryAdapter;
+//import co.com.activo.mongo.computador.MongoDBRepository;
+//import co.com.activo.mongo.computador.MongoRepositoryAdapter;
 //import org.junit.jupiter.api.BeforeEach;
 //import org.junit.jupiter.api.Test;
 //import org.mockito.Mock;

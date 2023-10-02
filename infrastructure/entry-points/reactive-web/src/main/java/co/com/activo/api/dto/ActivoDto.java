@@ -8,8 +8,8 @@ import lombok.NoArgsConstructor;
 import java.time.LocalDateTime;
 
 @Data
-
 public class ActivoDto {
+
     protected String responsableId;
     protected LocalDateTime fechaDeCompra;
     protected Integer numeroDeFactura;

@@ -4,7 +4,9 @@ import lombok.*;
 import lombok.NoArgsConstructor;
 import lombok.experimental.SuperBuilder;
 
+@EqualsAndHashCode(callSuper = true)
 @Data
 @SuperBuilder(toBuilder = true)
+@NoArgsConstructor
 public class Fijo extends Muebleria {
 }

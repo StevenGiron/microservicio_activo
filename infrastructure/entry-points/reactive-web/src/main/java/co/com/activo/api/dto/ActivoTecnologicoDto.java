@@ -1,28 +1,18 @@
 package co.com.activo.api.dto;
 
 import co.com.activo.model.common.ActivoTecnologico;
+import lombok.Data;
+import lombok.EqualsAndHashCode;
 
 import java.time.LocalDateTime;
 
+@EqualsAndHashCode(callSuper = true)
+@Data
 public class ActivoTecnologicoDto extends ActivoDto {
-    private String marca;
-    private String ubicacion;
-    private String detalle;
-    private LocalDateTime fechaExpiracionGarantia;
-    private String detalleDeLaGarantia;
+    protected String marca;
+    protected String ubicacion;
+    protected String detalle;
+    protected LocalDateTime fechaExpiracionGarantia;
+    protected String detalleDeLaGarantia;
 
-    public ActivoTecnologico toEntity() {
-        return ActivoTecnologico.builder()
-                .responsableId(responsableId)
-                .fechaDeCompra(fechaDeCompra)
-                .numeroDeFactura(numeroDeFactura)
-                .descripcion(descripcion)
-                .estado(estado)
-                .marca(marca)
-                .ubicacion(ubicacion)
-                .detalle(detalle)
-                .fechaExpiracionGarantia(fechaExpiracionGarantia)
-                .detalleDeLaGarantia(detalleDeLaGarantia)
-                .build();
-    }
 }

@@ -4,11 +4,11 @@ import co.com.activo.model.common.ActivoTecnologico;
 import lombok.*;
 import lombok.experimental.SuperBuilder;
 
+@EqualsAndHashCode(callSuper = true)
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
 @SuperBuilder(toBuilder = true)
 public class Monitor extends ActivoTecnologico {
     private String pulgadas;
-
 }

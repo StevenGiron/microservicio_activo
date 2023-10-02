@@ -3,7 +3,9 @@ package co.com.activo.api.dto;
 import co.com.activo.model.activos.tecnologicos.computador.Computador;
 import co.com.activo.model.common.ActivoTecnologico;
 import lombok.Data;
+import lombok.EqualsAndHashCode;
 
+@EqualsAndHashCode(callSuper = true)
 @Data
 public class ComputadorDto extends ActivoTecnologico {
 
@@ -11,7 +13,7 @@ public class ComputadorDto extends ActivoTecnologico {
     private String ram;
     private String discoDuro;
 
-    public Computador toEntity() {
+   public Computador toEntity() {
         return Computador.builder()
                 .responsableId(responsableId)
                 .fechaDeCompra(fechaDeCompra)
