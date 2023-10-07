@@ -19,3 +19,5 @@ project(':mongo-repository').projectDir = file('./infrastructure/driven-adapters
 include ':reactive-web'
 project(':reactive-web').projectDir = file('./infrastructure/entry-points/reactive-web')
 
+include ':responsable'
+project(':responsable').projectDir = file('./infrastructure/driven-adapters/responsable')
