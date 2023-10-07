@@ -12,7 +12,7 @@ public class MonitorDto extends ActivoTecnologico {
 
     public Monitor toEntity() {
         return Monitor.builder()
-                .responsableId(responsableId)
+                .responsable(responsable)
                 .fechaDeCompra(fechaDeCompra)
                 .numeroDeFactura(numeroDeFactura)
                 .descripcion(descripcion)

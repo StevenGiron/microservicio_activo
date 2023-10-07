@@ -15,7 +15,7 @@ public class ComputadorDto extends ActivoTecnologico {
 
    public Computador toEntity() {
         return Computador.builder()
-                .responsableId(responsableId)
+                .responsable(responsable)
                 .fechaDeCompra(fechaDeCompra)
                 .numeroDeFactura(numeroDeFactura)
                 .descripcion(descripcion)

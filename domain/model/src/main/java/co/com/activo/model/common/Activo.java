@@ -1,5 +1,6 @@
 package co.com.activo.model.common;
 
+import co.com.activo.model.responsable.Responsable;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -18,7 +19,7 @@ public class Activo {
     }
 
     protected String id;
-    protected String responsableId;
+    protected Responsable responsable;
     protected LocalDateTime fechaDeCompra;
     protected Integer numeroDeFactura;
     protected String descripcion;
