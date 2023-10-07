@@ -1,5 +1,6 @@
 package co.com.activo.mongo.activo;
 
+import co.com.activo.model.responsable.Responsable;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -15,7 +16,7 @@ import java.time.LocalDateTime;
 public class ActivoData {
     @Id
     protected String id;
-    protected String responsableId;
+    protected Responsable responsable;
     protected LocalDateTime fechaDeCompra;
     protected Integer numeroDeFactura;
     protected String descripcion;
